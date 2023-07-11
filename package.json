@@ -1,0 +1,35 @@
+{
+  "name": "iuhb-co2-footprint",
+  "version": "1.0.0",
+  "description": "Fallstudie für den Kurs IPWA01",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickSchababerle/iuhb-co2-footprint.git"
+  },
+  "author": "Patrick Schababerle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrickSchababerle/iuhb-co2-footprint/issues"
+  },
+  "homepage": "https://github.com/PatrickSchababerle/iuhb-co2-footprint#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "css-loader": "^6.8.1",
+    "datatables.net-bs5": "^1.13.5",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.3"
+  }
+}
