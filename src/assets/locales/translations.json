@@ -1,0 +1,24 @@
+{
+    "en": {
+        "table": {
+            "header": {
+                "company": "Company",
+                "country": "Country",
+                "industry": "Industry",
+                "emissions": "Emissions",
+                "unit": "Unit"
+            }
+        }
+    },
+    "ar": {
+        "table": {
+            "header": {
+                "company": "شركة",
+                "country": "دولة",
+                "industry": "صناعة",
+                "emissions": "الانبعاثات",
+                "unit": "وحدة"
+            }
+        }
+    }
+}

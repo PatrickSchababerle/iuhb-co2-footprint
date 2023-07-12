@@ -1,7 +1,7 @@
 /**
  * Translates emissions data into datatable readable array
  * @param {object} emissionData
- * @return object
+ * @return {object}
  */
 export default function translator(emissionData) {
 
@@ -35,11 +35,11 @@ export default function translator(emissionData) {
 
     return {
         columns: [
-            { title: 'Company' },
-            { title: 'Country' },
-            { title: 'Industry' },
-            { title: 'Emissions' },
-            { title: 'Unit' }
+            { title: window.i18n.t("table.header.company") },
+            { title: window.i18n.t("table.header.country") },
+            { title: window.i18n.t("table.header.industry") },
+            { title: window.i18n.t("table.header.emissions") },
+            { title: window.i18n.t("table.header.unit") }
         ],
         rows: rows
     };
