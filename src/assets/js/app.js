@@ -29,7 +29,7 @@ const languageSwitchElement = document.querySelector('#language-switch');
 /**
  * Set the current language in language switch
  */
-languageSwitchElement.value = getLocale();
+languageSwitchElement.value = getLocale() || "en";
 
 /**
  * Add translation functionality
